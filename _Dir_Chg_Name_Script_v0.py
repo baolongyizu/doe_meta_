@@ -1,3 +1,4 @@
+# this code is intended to change file names under a certain doe folder
 import glob, os
 from os import listdir
 from os.path import isfile, join
@@ -18,7 +19,7 @@ device = ['HC']
 #
 #
 filepath = r"C:\Users\wwu\Desktop\Python_Data\+11_Add_String\Data"
-onlyfiles = [f for f in listdir(filepath) if isfile(join(filepath, f))]
+onlyfiles = [f for f in listdir(filepath) if isfile(join(filepath, f))] #read files from the dir
 
 print(onlyfiles)
 
